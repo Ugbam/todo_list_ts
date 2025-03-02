@@ -71,7 +71,7 @@ console.log(todoList.listTodos());
 ## Expected Output
 
 The output will look like this:
-
+```bash
 Todos after completing ID 2:
 [
   { id: 1, task: 'Buy chicken and beef', completed: false, dueDate: 2025-05-03T00:00:00.000Z },
@@ -85,7 +85,7 @@ Completed Todos:
 [
   { id: 2, task: 'Post Sunday pictures', completed: true }
 ]
-
+```
 ### Methods
 
 - addTodo(task: string, dueDate?: Date): void
